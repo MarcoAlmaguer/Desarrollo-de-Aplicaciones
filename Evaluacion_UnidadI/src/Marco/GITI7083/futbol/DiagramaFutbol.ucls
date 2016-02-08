@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.9" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="Marco.GITI7083.futbol.Entrenador" project="Evaluacion_UnidadI" 
+    file="/Evaluacion_UnidadI/src/Marco/GITI7083/futbol/Entrenador.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="169" x="366" y="215"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="Marco.GITI7083.futbol.Futbolista" project="Evaluacion_UnidadI" 
+    file="/Evaluacion_UnidadI/src/Marco/GITI7083/futbol/Futbolista.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="122" x="162" y="203"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="Marco.GITI7083.futbol.SeleccionFutbol" project="Evaluacion_UnidadI" 
+    file="/Evaluacion_UnidadI/src/Marco/GITI7083/futbol/SeleccionFutbol.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="115" x="375" y="18"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="Marco.GITI7083.futbol.Masajista" project="Evaluacion_UnidadI" 
+    file="/Evaluacion_UnidadI/src/Marco/GITI7083/futbol/Masajista.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="125" x="621" y="163"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" language="java" name="Marco.GITI7083.futbol.IntegrantesSeleccionFutbol" project="Evaluacion_UnidadI" 
+    file="/Evaluacion_UnidadI/src/Marco/GITI7083/futbol/IntegrantesSeleccionFutbol.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="124" y="95"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <realization id="6">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <generalization id="7">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="8">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
